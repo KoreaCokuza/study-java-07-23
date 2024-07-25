@@ -21,9 +21,9 @@ class App {
                 System.out.print("작가 : ");
                 String authorName = scanner.nextLine();
                 lastQuotationid++;
-                int id = lastQuotationid;
+                int id = lastQuotationid;   // id 값을 구해오는 것.
                 Quotation quotation = new Quotation(id, content, authorName);
-                // Quotation클래스에서 id와 명언과 작가를 받는다.
+                // Quotation클래스로 id와 명언과 작가를 보낸다.
 
                 System.out.printf("%d번 명언이 등록되었습니다.\n", lastQuotationid);
             }
